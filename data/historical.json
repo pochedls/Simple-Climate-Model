@@ -1,0 +1,898 @@
+historical = [
+  {
+    "Year": 1879,
+    "Volcano": 0.202,
+    "Solar": -0.03,
+    "Anthropogenic": 0.196,
+    "Observed": 0
+  },
+  {
+    "Year": 1880,
+    "Volcano": 0.216,
+    "Solar": -0.009,
+    "Anthropogenic": 0.194,
+    "Observed": 0
+  },
+  {
+    "Year": 1881,
+    "Volcano": 0.223,
+    "Solar": 0.011,
+    "Anthropogenic": 0.196,
+    "Observed": 0.07
+  },
+  {
+    "Year": 1882,
+    "Volcano": 0.111,
+    "Solar": 0.021,
+    "Anthropogenic": 0.208,
+    "Observed": 0.02
+  },
+  {
+    "Year": 1883,
+    "Volcano": -0.803,
+    "Solar": 0.022,
+    "Anthropogenic": 0.217,
+    "Observed": 0.01
+  },
+  {
+    "Year": 1884,
+    "Volcano": -1.537,
+    "Solar": 0.011,
+    "Anthropogenic": 0.225,
+    "Observed": -0.04
+  },
+  {
+    "Year": 1885,
+    "Volcano": -0.944,
+    "Solar": -0.011,
+    "Anthropogenic": 0.236,
+    "Observed": -0.04
+  },
+  {
+    "Year": 1886,
+    "Volcano": -0.449,
+    "Solar": -0.032,
+    "Anthropogenic": 0.244,
+    "Observed": -0.01
+  },
+  {
+    "Year": 1887,
+    "Volcano": -0.321,
+    "Solar": -0.044,
+    "Anthropogenic": 0.248,
+    "Observed": -0.07
+  },
+  {
+    "Year": 1888,
+    "Volcano": -0.211,
+    "Solar": -0.051,
+    "Anthropogenic": 0.245,
+    "Observed": 0.01
+  },
+  {
+    "Year": 1889,
+    "Volcano": -0.278,
+    "Solar": -0.053,
+    "Anthropogenic": 0.246,
+    "Observed": 0.11
+  },
+  {
+    "Year": 1890,
+    "Volcano": -0.332,
+    "Solar": -0.04,
+    "Anthropogenic": 0.248,
+    "Observed": -0.11
+  },
+  {
+    "Year": 1891,
+    "Volcano": -0.262,
+    "Solar": -0.012,
+    "Anthropogenic": 0.246,
+    "Observed": 0.01
+  },
+  {
+    "Year": 1892,
+    "Volcano": -0.088,
+    "Solar": 0.013,
+    "Anthropogenic": 0.246,
+    "Observed": -0.04
+  },
+  {
+    "Year": 1893,
+    "Volcano": 0.06,
+    "Solar": 0.034,
+    "Anthropogenic": 0.246,
+    "Observed": -0.05
+  },
+  {
+    "Year": 1894,
+    "Volcano": 0.169,
+    "Solar": 0.044,
+    "Anthropogenic": 0.246,
+    "Observed": -0.05
+  },
+  {
+    "Year": 1895,
+    "Volcano": 0.162,
+    "Solar": 0.03,
+    "Anthropogenic": 0.243,
+    "Observed": 0.03
+  },
+  {
+    "Year": 1896,
+    "Volcano": 0.017,
+    "Solar": 0.002,
+    "Anthropogenic": 0.244,
+    "Observed": 0.14
+  },
+  {
+    "Year": 1897,
+    "Volcano": -0.065,
+    "Solar": -0.019,
+    "Anthropogenic": 0.247,
+    "Observed": 0.17
+  },
+  {
+    "Year": 1898,
+    "Volcano": 0.038,
+    "Solar": -0.03,
+    "Anthropogenic": 0.251,
+    "Observed": 0.02
+  },
+  {
+    "Year": 1899,
+    "Volcano": 0.151,
+    "Solar": -0.037,
+    "Anthropogenic": 0.254,
+    "Observed": 0.13
+  },
+  {
+    "Year": 1900,
+    "Volcano": 0.202,
+    "Solar": -0.045,
+    "Anthropogenic": 0.258,
+    "Observed": 0.2
+  },
+  {
+    "Year": 1901,
+    "Volcano": 0.192,
+    "Solar": -0.053,
+    "Anthropogenic": 0.26,
+    "Observed": 0.13
+  },
+  {
+    "Year": 1902,
+    "Volcano": -0.257,
+    "Solar": -0.046,
+    "Anthropogenic": 0.262,
+    "Observed": 0.04
+  },
+  {
+    "Year": 1903,
+    "Volcano": -0.651,
+    "Solar": -0.016,
+    "Anthropogenic": 0.263,
+    "Observed": -0.02
+  },
+  {
+    "Year": 1904,
+    "Volcano": -0.356,
+    "Solar": 0.009,
+    "Anthropogenic": 0.266,
+    "Observed": -0.06
+  },
+  {
+    "Year": 1905,
+    "Volcano": 0.002,
+    "Solar": 0.013,
+    "Anthropogenic": 0.27,
+    "Observed": 0.04
+  },
+  {
+    "Year": 1906,
+    "Volcano": 0.1,
+    "Solar": 0.016,
+    "Anthropogenic": 0.273,
+    "Observed": 0.09
+  },
+  {
+    "Year": 1907,
+    "Volcano": 0.076,
+    "Solar": 0.018,
+    "Anthropogenic": 0.276,
+    "Observed": -0.11
+  },
+  {
+    "Year": 1908,
+    "Volcano": 0.088,
+    "Solar": 0.014,
+    "Anthropogenic": 0.285,
+    "Observed": -0.05
+  },
+  {
+    "Year": 1909,
+    "Volcano": 0.154,
+    "Solar": 0.001,
+    "Anthropogenic": 0.298,
+    "Observed": -0.07
+  },
+  {
+    "Year": 1910,
+    "Volcano": 0.189,
+    "Solar": -0.019,
+    "Anthropogenic": 0.304,
+    "Observed": -0.05
+  },
+  {
+    "Year": 1911,
+    "Volcano": 0.195,
+    "Solar": -0.034,
+    "Anthropogenic": 0.314,
+    "Observed": -0.06
+  },
+  {
+    "Year": 1912,
+    "Volcano": -0.049,
+    "Solar": -0.041,
+    "Anthropogenic": 0.328,
+    "Observed": -0.04
+  },
+  {
+    "Year": 1913,
+    "Volcano": -0.157,
+    "Solar": -0.039,
+    "Anthropogenic": 0.338,
+    "Observed": -0.02
+  },
+  {
+    "Year": 1914,
+    "Volcano": 0.056,
+    "Solar": -0.019,
+    "Anthropogenic": 0.351,
+    "Observed": 0.13
+  },
+  {
+    "Year": 1915,
+    "Volcano": 0.159,
+    "Solar": 0.02,
+    "Anthropogenic": 0.366,
+    "Observed": 0.19
+  },
+  {
+    "Year": 1916,
+    "Volcano": 0.188,
+    "Solar": 0.058,
+    "Anthropogenic": 0.374,
+    "Observed": -0.02
+  },
+  {
+    "Year": 1917,
+    "Volcano": 0.196,
+    "Solar": 0.078,
+    "Anthropogenic": 0.381,
+    "Observed": -0.11
+  },
+  {
+    "Year": 1918,
+    "Volcano": 0.202,
+    "Solar": 0.072,
+    "Anthropogenic": 0.389,
+    "Observed": -0.05
+  },
+  {
+    "Year": 1919,
+    "Volcano": 0.195,
+    "Solar": 0.043,
+    "Anthropogenic": 0.403,
+    "Observed": 0.08
+  },
+  {
+    "Year": 1920,
+    "Volcano": 0.111,
+    "Solar": 0.014,
+    "Anthropogenic": 0.414,
+    "Observed": 0.09
+  },
+  {
+    "Year": 1921,
+    "Volcano": 0.096,
+    "Solar": -0.008,
+    "Anthropogenic": 0.426,
+    "Observed": 0.14
+  },
+  {
+    "Year": 1922,
+    "Volcano": 0.181,
+    "Solar": -0.021,
+    "Anthropogenic": 0.439,
+    "Observed": 0.02
+  },
+  {
+    "Year": 1923,
+    "Volcano": 0.202,
+    "Solar": -0.022,
+    "Anthropogenic": 0.439,
+    "Observed": 0.06
+  },
+  {
+    "Year": 1924,
+    "Volcano": 0.189,
+    "Solar": -0.009,
+    "Anthropogenic": 0.441,
+    "Observed": 0.06
+  },
+  {
+    "Year": 1925,
+    "Volcano": 0.189,
+    "Solar": 0.015,
+    "Anthropogenic": 0.453,
+    "Observed": 0.11
+  },
+  {
+    "Year": 1926,
+    "Volcano": 0.197,
+    "Solar": 0.04,
+    "Anthropogenic": 0.464,
+    "Observed": 0.26
+  },
+  {
+    "Year": 1927,
+    "Volcano": 0.195,
+    "Solar": 0.055,
+    "Anthropogenic": 0.471,
+    "Observed": 0.13
+  },
+  {
+    "Year": 1928,
+    "Volcano": 0.146,
+    "Solar": 0.051,
+    "Anthropogenic": 0.478,
+    "Observed": 0.15
+  },
+  {
+    "Year": 1929,
+    "Volcano": 0.096,
+    "Solar": 0.041,
+    "Anthropogenic": 0.487,
+    "Observed": 0.02
+  },
+  {
+    "Year": 1930,
+    "Volcano": 0.122,
+    "Solar": 0.033,
+    "Anthropogenic": 0.498,
+    "Observed": 0.2
+  },
+  {
+    "Year": 1931,
+    "Volcano": 0.146,
+    "Solar": 0.016,
+    "Anthropogenic": 0.516,
+    "Observed": 0.26
+  },
+  {
+    "Year": 1932,
+    "Volcano": 0.115,
+    "Solar": -0.004,
+    "Anthropogenic": 0.534,
+    "Observed": 0.2
+  },
+  {
+    "Year": 1933,
+    "Volcano": 0.124,
+    "Solar": -0.014,
+    "Anthropogenic": 0.547,
+    "Observed": 0.09
+  },
+  {
+    "Year": 1934,
+    "Volcano": 0.162,
+    "Solar": 0,
+    "Anthropogenic": 0.555,
+    "Observed": 0.21
+  },
+  {
+    "Year": 1935,
+    "Volcano": 0.169,
+    "Solar": 0.041,
+    "Anthropogenic": 0.563,
+    "Observed": 0.16
+  },
+  {
+    "Year": 1936,
+    "Volcano": 0.181,
+    "Solar": 0.082,
+    "Anthropogenic": 0.569,
+    "Observed": 0.23
+  },
+  {
+    "Year": 1937,
+    "Volcano": 0.179,
+    "Solar": 0.09,
+    "Anthropogenic": 0.576,
+    "Observed": 0.35
+  },
+  {
+    "Year": 1938,
+    "Volcano": 0.163,
+    "Solar": 0.081,
+    "Anthropogenic": 0.59,
+    "Observed": 0.38
+  },
+  {
+    "Year": 1939,
+    "Volcano": 0.164,
+    "Solar": 0.074,
+    "Anthropogenic": 0.6,
+    "Observed": 0.29
+  },
+  {
+    "Year": 1940,
+    "Volcano": 0.184,
+    "Solar": 0.064,
+    "Anthropogenic": 0.6,
+    "Observed": 0.32
+  },
+  {
+    "Year": 1941,
+    "Volcano": 0.193,
+    "Solar": 0.05,
+    "Anthropogenic": 0.598,
+    "Observed": 0.38
+  },
+  {
+    "Year": 1942,
+    "Volcano": 0.171,
+    "Solar": 0.031,
+    "Anthropogenic": 0.594,
+    "Observed": 0.31
+  },
+  {
+    "Year": 1943,
+    "Volcano": 0.166,
+    "Solar": 0.014,
+    "Anthropogenic": 0.593,
+    "Observed": 0.37
+  },
+  {
+    "Year": 1944,
+    "Volcano": 0.189,
+    "Solar": 0.021,
+    "Anthropogenic": 0.591,
+    "Observed": 0.47
+  },
+  {
+    "Year": 1945,
+    "Volcano": 0.2,
+    "Solar": 0.05,
+    "Anthropogenic": 0.59,
+    "Observed": 0.34
+  },
+  {
+    "Year": 1946,
+    "Volcano": 0.207,
+    "Solar": 0.081,
+    "Anthropogenic": 0.587,
+    "Observed": 0.23
+  },
+  {
+    "Year": 1947,
+    "Volcano": 0.199,
+    "Solar": 0.112,
+    "Anthropogenic": 0.579,
+    "Observed": 0.28
+  },
+  {
+    "Year": 1948,
+    "Volcano": 0.197,
+    "Solar": 0.129,
+    "Anthropogenic": 0.573,
+    "Observed": 0.24
+  },
+  {
+    "Year": 1949,
+    "Volcano": 0.189,
+    "Solar": 0.116,
+    "Anthropogenic": 0.573,
+    "Observed": 0.21
+  },
+  {
+    "Year": 1950,
+    "Volcano": 0.187,
+    "Solar": 0.081,
+    "Anthropogenic": 0.574,
+    "Observed": 0.12
+  },
+  {
+    "Year": 1951,
+    "Volcano": 0.191,
+    "Solar": 0.049,
+    "Anthropogenic": 0.562,
+    "Observed": 0.24
+  },
+  {
+    "Year": 1952,
+    "Volcano": 0.184,
+    "Solar": 0.032,
+    "Anthropogenic": 0.55,
+    "Observed": 0.31
+  },
+  {
+    "Year": 1953,
+    "Volcano": 0.176,
+    "Solar": 0.02,
+    "Anthropogenic": 0.55,
+    "Observed": 0.39
+  },
+  {
+    "Year": 1954,
+    "Volcano": 0.181,
+    "Solar": 0.022,
+    "Anthropogenic": 0.552,
+    "Observed": 0.18
+  },
+  {
+    "Year": 1955,
+    "Volcano": 0.203,
+    "Solar": 0.057,
+    "Anthropogenic": 0.555,
+    "Observed": 0.18
+  },
+  {
+    "Year": 1956,
+    "Volcano": 0.215,
+    "Solar": 0.125,
+    "Anthropogenic": 0.559,
+    "Observed": 0.11
+  },
+  {
+    "Year": 1957,
+    "Volcano": 0.226,
+    "Solar": 0.178,
+    "Anthropogenic": 0.563,
+    "Observed": 0.36
+  },
+  {
+    "Year": 1958,
+    "Volcano": 0.231,
+    "Solar": 0.18,
+    "Anthropogenic": 0.572,
+    "Observed": 0.36
+  },
+  {
+    "Year": 1959,
+    "Volcano": 0.227,
+    "Solar": 0.151,
+    "Anthropogenic": 0.59,
+    "Observed": 0.34
+  },
+  {
+    "Year": 1960,
+    "Volcano": 0.152,
+    "Solar": 0.116,
+    "Anthropogenic": 0.613,
+    "Observed": 0.27
+  },
+  {
+    "Year": 1961,
+    "Volcano": 0.061,
+    "Solar": 0.072,
+    "Anthropogenic": 0.619,
+    "Observed": 0.35
+  },
+  {
+    "Year": 1962,
+    "Volcano": -0.014,
+    "Solar": 0.039,
+    "Anthropogenic": 0.62,
+    "Observed": 0.32
+  },
+  {
+    "Year": 1963,
+    "Volcano": -0.495,
+    "Solar": 0.027,
+    "Anthropogenic": 0.63,
+    "Observed": 0.36
+  },
+  {
+    "Year": 1964,
+    "Volcano": -0.853,
+    "Solar": 0.027,
+    "Anthropogenic": 0.641,
+    "Observed": 0.07
+  },
+  {
+    "Year": 1965,
+    "Volcano": -0.532,
+    "Solar": 0.038,
+    "Anthropogenic": 0.657,
+    "Observed": 0.17
+  },
+  {
+    "Year": 1966,
+    "Volcano": -0.15,
+    "Solar": 0.064,
+    "Anthropogenic": 0.679,
+    "Observed": 0.25
+  },
+  {
+    "Year": 1967,
+    "Volcano": -0.022,
+    "Solar": 0.092,
+    "Anthropogenic": 0.698,
+    "Observed": 0.27
+  },
+  {
+    "Year": 1968,
+    "Volcano": -0.22,
+    "Solar": 0.108,
+    "Anthropogenic": 0.721,
+    "Observed": 0.24
+  },
+  {
+    "Year": 1969,
+    "Volcano": -0.296,
+    "Solar": 0.118,
+    "Anthropogenic": 0.754,
+    "Observed": 0.36
+  },
+  {
+    "Year": 1970,
+    "Volcano": -0.055,
+    "Solar": 0.108,
+    "Anthropogenic": 0.794,
+    "Observed": 0.31
+  },
+  {
+    "Year": 1971,
+    "Volcano": 0.114,
+    "Solar": 0.087,
+    "Anthropogenic": 0.835,
+    "Observed": 0.17
+  },
+  {
+    "Year": 1972,
+    "Volcano": 0.153,
+    "Solar": 0.072,
+    "Anthropogenic": 0.872,
+    "Observed": 0.28
+  },
+  {
+    "Year": 1973,
+    "Volcano": 0.106,
+    "Solar": 0.051,
+    "Anthropogenic": 0.905,
+    "Observed": 0.42
+  },
+  {
+    "Year": 1974,
+    "Volcano": -0.041,
+    "Solar": 0.025,
+    "Anthropogenic": 0.931,
+    "Observed": 0.2
+  },
+  {
+    "Year": 1975,
+    "Volcano": -0.141,
+    "Solar": 0.01,
+    "Anthropogenic": 0.953,
+    "Observed": 0.23
+  },
+  {
+    "Year": 1976,
+    "Volcano": -0.017,
+    "Solar": 0.019,
+    "Anthropogenic": 0.976,
+    "Observed": 0.12
+  },
+  {
+    "Year": 1977,
+    "Volcano": 0.134,
+    "Solar": 0.06,
+    "Anthropogenic": 1.005,
+    "Observed": 0.4
+  },
+  {
+    "Year": 1978,
+    "Volcano": 0.109,
+    "Solar": 0.123,
+    "Anthropogenic": 1.044,
+    "Observed": 0.29
+  },
+  {
+    "Year": 1979,
+    "Volcano": 0.094,
+    "Solar": 0.174,
+    "Anthropogenic": 1.088,
+    "Observed": 0.36
+  },
+  {
+    "Year": 1980,
+    "Volcano": 0.148,
+    "Solar": 0.193,
+    "Anthropogenic": 1.125,
+    "Observed": 0.47
+  },
+  {
+    "Year": 1981,
+    "Volcano": 0.08,
+    "Solar": 0.18,
+    "Anthropogenic": 1.148,
+    "Observed": 0.54
+  },
+  {
+    "Year": 1982,
+    "Volcano": -0.591,
+    "Solar": 0.142,
+    "Anthropogenic": 1.164,
+    "Observed": 0.32
+  },
+  {
+    "Year": 1983,
+    "Volcano": -0.876,
+    "Solar": 0.1,
+    "Anthropogenic": 1.185,
+    "Observed": 0.53
+  },
+  {
+    "Year": 1984,
+    "Volcano": -0.32,
+    "Solar": 0.055,
+    "Anthropogenic": 1.217,
+    "Observed": 0.37
+  },
+  {
+    "Year": 1985,
+    "Volcano": -0.023,
+    "Solar": 0.023,
+    "Anthropogenic": 1.252,
+    "Observed": 0.32
+  },
+  {
+    "Year": 1986,
+    "Volcano": 0.035,
+    "Solar": 0.022,
+    "Anthropogenic": 1.286,
+    "Observed": 0.4
+  },
+  {
+    "Year": 1987,
+    "Volcano": 0.066,
+    "Solar": 0.048,
+    "Anthropogenic": 1.322,
+    "Observed": 0.55
+  },
+  {
+    "Year": 1988,
+    "Volcano": 0.106,
+    "Solar": 0.105,
+    "Anthropogenic": 1.366,
+    "Observed": 0.59
+  },
+  {
+    "Year": 1989,
+    "Volcano": 0.129,
+    "Solar": 0.163,
+    "Anthropogenic": 1.409,
+    "Observed": 0.47
+  },
+  {
+    "Year": 1990,
+    "Volcano": 0.127,
+    "Solar": 0.174,
+    "Anthropogenic": 1.445,
+    "Observed": 0.64
+  },
+  {
+    "Year": 1991,
+    "Volcano": -0.815,
+    "Solar": 0.155,
+    "Anthropogenic": 1.467,
+    "Observed": 0.63
+  },
+  {
+    "Year": 1992,
+    "Volcano": -1.42,
+    "Solar": 0.125,
+    "Anthropogenic": 1.478,
+    "Observed": 0.41
+  },
+  {
+    "Year": 1993,
+    "Volcano": -0.682,
+    "Solar": 0.085,
+    "Anthropogenic": 1.494,
+    "Observed": 0.41
+  },
+  {
+    "Year": 1994,
+    "Volcano": -0.132,
+    "Solar": 0.049,
+    "Anthropogenic": 1.52,
+    "Observed": 0.51
+  },
+  {
+    "Year": 1995,
+    "Volcano": 0.059,
+    "Solar": 0.026,
+    "Anthropogenic": 1.556,
+    "Observed": 0.65
+  },
+  {
+    "Year": 1996,
+    "Volcano": 0.124,
+    "Solar": 0.02,
+    "Anthropogenic": 1.594,
+    "Observed": 0.57
+  },
+  {
+    "Year": 1997,
+    "Volcano": 0.153,
+    "Solar": 0.043,
+    "Anthropogenic": 1.619,
+    "Observed": 0.67
+  },
+  {
+    "Year": 1998,
+    "Volcano": 0.188,
+    "Solar": 0.093,
+    "Anthropogenic": 1.644,
+    "Observed": 0.84
+  },
+  {
+    "Year": 1999,
+    "Volcano": 0.216,
+    "Solar": 0.146,
+    "Anthropogenic": 1.671,
+    "Observed": 0.6
+  },
+  {
+    "Year": 2000,
+    "Volcano": 0.229,
+    "Solar": 0.181,
+    "Anthropogenic": 1.686,
+    "Observed": 0.61
+  },
+  {
+    "Year": 2001,
+    "Volcano": 0.232,
+    "Solar": 0.191,
+    "Anthropogenic": 1.705,
+    "Observed": 0.75
+  },
+  {
+    "Year": 2002,
+    "Volcano": 0.232,
+    "Solar": 0.174,
+    "Anthropogenic": 1.739,
+    "Observed": 0.84
+  },
+  {
+    "Year": 2003,
+    "Volcano": 0.232,
+    "Solar": 0.13,
+    "Anthropogenic": 1.775,
+    "Observed": 0.83
+  },
+  {
+    "Year": 2004,
+    "Volcano": 0.232,
+    "Solar": 0.086,
+    "Anthropogenic": 1.807,
+    "Observed": 0.76
+  },
+  {
+    "Year": 2005,
+    "Volcano": 0.184,
+    "Solar": 0.059,
+    "Anthropogenic": 1.84,
+    "Observed": 0.91
+  },
+  {
+    "Year": 2006,
+    "Volcano": 0.068,
+    "Solar": 0.043,
+    "Anthropogenic": 1.883,
+    "Observed": 0.84
+  }
+]

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>Simple Climate Model</title>
+<head>
+	<!-- Data -->
+	<script type="text/javascript" src="data/historical.json"></script>
+	<!-- jQuery & jQueryUI -->
+	<script src="src/jquery-3.1.1.min.js"></script>
+	<link href="src/bootstrap-switch.css" rel="stylesheet">
+	<script src="src/bootstrap-switch.js"></script>
+	<link rel="stylesheet" href="src/jquery-ui.css">
+	<script src="src/jquery-ui.js"></script>
+	<!-- Plotting --> 
+	<script type="text/javascript" src="src/plotly-latest.min.js"></script>	
+	<!-- Model Functions -->
+	<script type="text/javascript" src="src/getModelInputs.js"></script>
+	<script type="text/javascript" src="src/runModel.js"></script>
+	<script type="text/javascript" src="src/plotController.js"></script>
+	<!-- Page Controller -->
+	<script type="text/javascript" src="src/pageController.js"></script>
+</head>
+<body>
+	<!-- Table of Model Inputs -->
+	<form>
+		<table cellpadding="5">
+			<tr>
+				<td colspan=3>Model Inputs</td>
+			</tr>
+			<tr>
+				<td>Anthropogenic Forcing:</td>
+				<td><input type="checkbox" name='anthro' id="switch" unchecked></td>
+				<td align="right">Feedback: <input type="text" id="varFb" readonly style="border:0; font-weight:bold; font-size:14px;"></td>
+			</tr>
+			<tr>
+				<td>Volcanic Forcing:</td>
+				<td><input type="checkbox" name='volc' id="switch" unchecked></td>
+				<td rowspan=3><div id="slider-vertical" style="height:200px;" padding="5"></div></td>
+			</tr>
+			<tr>
+				<td>Solar Forcing:</td>
+				<td><input type="checkbox" name='sol' id="switch" unchecked></td>
+			</tr>
+			<tr>
+				<td>Natural Variability:</td>
+				<td><input type="checkbox" name='nat' id="switch" unchecked></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input class="ui-button ui-widget ui-corner-all" type="submit" value="Run Model"></td>
+			</tr>
+		</table>
+	</form>
+
+	<!-- Div for Plot output -->
+	<div id="tester" style="width:600px;height:250px;"></div>
+
+</body>
+</html>
