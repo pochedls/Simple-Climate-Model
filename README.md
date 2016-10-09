@@ -56,7 +56,7 @@ Here, we start with a temperature anomaly of 0. We tell the model the forcing, F
 Download the git repository:
 
 	cd ~/Desktop/
-	git clone ...
+	git clone https://github.com/pochedls/Simple-Climate-Model.git simple
 
 Start up a simple python server: 
 	python -m http.server 8000
