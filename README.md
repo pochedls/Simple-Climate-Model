@@ -57,6 +57,7 @@ Download the git repository:
 
 	cd ~/Desktop/
 	git clone https://github.com/pochedls/Simple-Climate-Model.git simple
+	cd simple
 
 Start up a simple python server: 
 	python -m http.server 8000
