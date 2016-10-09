@@ -4,6 +4,7 @@
 <head>
 	<!-- Data -->
 	<script type="text/javascript" src="data/historical.json"></script>
+	<script type="text/javascript" src="data/future.json"></script>
 	<!-- jQuery & jQueryUI -->
 	<script src="src/jquery-3.1.1.min.js"></script>
 	<link href="src/bootstrap-switch.css" rel="stylesheet">
@@ -45,6 +46,18 @@
 				<td><input type="checkbox" name='nat' id="switch" unchecked></td>
 			</tr>
 			<tr>
+				<td>Future Scenario:</td>
+				<td>
+					<select id="scenario">
+					  <option value="none">Select</option>
+					  <option value="rcp3">RCP 3</option>
+					  <option value="rcp45">RCP 4.5</option>
+					  <option value="rcp6">RCP 6</option>
+					  <option value="rcp85">RCP 8.5</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td><input class="ui-button ui-widget ui-corner-all" type="submit" value="Run Model"></td>
 			</tr>
@@ -52,7 +65,7 @@
 	</form>
 
 	<!-- Div for Plot output -->
-	<div id="tester" style="width:600px;height:250px;"></div>
+	<div id="tester" style="width:800px;height:400px;"></div>
 
 </body>
 </html>

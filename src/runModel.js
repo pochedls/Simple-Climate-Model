@@ -1,21 +1,33 @@
+// This script runs the model 
 
-// var historical = JSON.parse(historical);
-// alert(mydata[0].name);
-// var s = historical.slice(1,10)
 function runModel() {
-	x = []
-	y = []
-	f = []
-	yo = []
+	// Initialize *global* variables 
+	x = [] // x-axis of plotly plot (year)
+	y = [] // y-axis of plotly plot (model temperture)
+	f = [] // forcing 
+	yo = [] // this will be used for the observations (temperature)
+
+	// Initialize local variables
 	var s = []
 	var v = []
 	var a = []
+	
+	// Get model inputs (separate routine)
 	opt = getModelInputs();
+
+	// Save feedback parameter for calculations
 	var fb = opt.fb;
+
+	// Loop over years 1 : n - 1
 	for (i = 0; i < historical.length; i++) {
+		// Put Data into vectors
 		x[i] = historical[i].Year
 		s[i] = historical[i].Solar
 		v[i] = historical[i].Volcano
+		yo[i] = historical[i].Observed;
+
+		// If options include forcing incorporate forcing data into matrix. 
+		// Otherwise record 0 (no forcing)
 		if (opt.anthro) {
 			a[i] = historical[i].Anthropogenic;	
 		} else {
@@ -31,22 +43,44 @@ function runModel() {
 		} else {
 			s[i] = 0;
 		}		
-		// Forcing Total
+
+		// Sum total forcing
 		f[i] = s[i] + v[i] + a[i];
-		// Response
+
+		// Calculate model temperature response
 		if (i == 0) {
-			y[i] = 0;	
+			y[i] = 0; // Start with 0 anomaly
 		} else if (i == historical.length) {
-			break;
+			break; // No prediction for end year
 		}
 		else {
-			y[i] = (y[i-1]*fb+f[i])/(100*1025*3985)*31363200 + y[i-1];
+			y[i] = (y[i-1]*fb+f[i])/(100*1025*3985)*31363200 + y[i-1]; 
 		}
-		yo[i] = historical[i].Observed;
-		// m = y;
-		// f = y;
-		
 	}	
+
+	// Future scenario
+	if (opt.future != 'none') {
+		var offset = historical.length;
+		// Loop over years 1 : n - 1
+		for (i = 0; i < future.length; i++) {
+			// Put Data into vectors
+			x[i-1+offset] = future[i].Year
+			if (opt.future == "rcp3") {
+				f[i-1+offset] = future[i].RCP3;
+			} else if (opt.future == "rcp45") {
+				f[i-1+offset] = future[i].RCP45;
+			} else if (opt.future == "rcp6") {
+				f[i-1+offset] = future[i].RCP6;
+			} else if (opt.future == "rcp85") {
+				f[i-1+offset] = future[i].RCP85;
+			};
+			// Calculate model temperature response
+			if (i == future.length) {
+				// y[i] = y[i]; // No prediction for end year
+			} else {
+				y[i+offset] = (y[i-1+offset]*fb+f[i-1+offset])/(100*1025*3985)*31363200 + y[i-1+offset]; 
+			}
+		}
+	}
 }
 
-// document.write(x[0])
