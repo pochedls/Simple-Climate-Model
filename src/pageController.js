@@ -18,6 +18,21 @@ $(document).ready(function() {
 		});
 	  $( "#varFb" ).val( $( "#slider-vertical" ).slider( "value" ) );
 	} );
+  	$( function() {
+		$( "#slider-vertical2" ).slider({
+			orientation: "vertical",
+			range: "min",
+			min: -1000,
+			max: -20,
+			step: 10,
+			value: -100,
+			slide: function( event, ui ) {
+				$( "#varH" ).val( ui.value );
+			}
+		});
+	  $( "#varH" ).val( $( "#slider-vertical2" ).slider( "value" ) );
+	} );	
+
   // Submit button actions
   $( "form" ).submit(function( event ) {
   	// Run Model

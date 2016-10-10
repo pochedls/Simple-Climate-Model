@@ -7,6 +7,7 @@ function getModelInputs() {
 	var varSol = $("[name='sol']").bootstrapSwitch('state');
 	var varNat = $("[name='nat']").bootstrapSwitch('state');
 	var varFb = $( "#varFb" ).val();
+	var varH = $( "#varH" ).val();
 	var varFuture = $( "#scenario" ).val();
 	// Put inputs into opt array
 	var opt = [];
@@ -15,6 +16,7 @@ function getModelInputs() {
 	opt.sol = varSol;
 	opt.nat = varNat;
 	opt.fb = Number(varFb);
+	opt.H = Number(varH);
 	opt.future = varFuture;
 	return opt
 }

@@ -15,8 +15,9 @@ function runModel() {
 	// Get model inputs (separate routine)
 	opt = getModelInputs();
 
-	// Save feedback parameter for calculations
+	// Save feedback parameter and mixed layer depth for calculations
 	var fb = opt.fb;
+	var H = opt.H*-1;
 
 	// Loop over years 1 : n - 1
 	for (i = 0; i < historical.length; i++) {
@@ -54,7 +55,7 @@ function runModel() {
 			break; // No prediction for end year
 		}
 		else {
-			y[i] = (y[i-1]*fb+f[i])/(100*1025*3985)*31363200 + y[i-1]; 
+			y[i] = (y[i-1]*fb+f[i])/(H*1025*3985)*31363200 + y[i-1]; 
 		}
 	}	
 
@@ -78,7 +79,7 @@ function runModel() {
 			if (i == future.length) {
 				// y[i] = y[i]; // No prediction for end year
 			} else {
-				y[i+offset] = (y[i-1+offset]*fb+f[i-1+offset])/(100*1025*3985)*31363200 + y[i-1+offset]; 
+				y[i+offset] = (y[i-1+offset]*fb+f[i-1+offset])/(H*1025*3985)*31363200 + y[i-1+offset]; 
 			}
 		}
 	}

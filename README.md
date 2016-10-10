@@ -66,7 +66,6 @@ Now just go to your web browser [localhost:8000](localhost:8000)
 
 ## To Do:
 * Make page look nicer
-* Add controller for mixed later depth
 * Make natural variability work
 ** Add multi-decadal variability
 * Enable download and server-side saving of data
